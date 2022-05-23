@@ -10,7 +10,7 @@ jobs:
       - name: Upload via FTP
         uses: airvzxf/ftp-deployment-action@latest
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: ${{ secrets.FTP_HOST }}
           user: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local_dir: "./"
