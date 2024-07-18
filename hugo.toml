@@ -2,3 +2,12 @@ baseURL = 'https://jakobcarlsson.se'
 languageCode = 'en-us'
 title = 'Jakob Carlsson'
 theme = 'PaperMod'
+[menus]
+    [[menus.main]]
+        name = 'Home'
+        pageRef = '/'
+        weight = 10
+    [[menus.main]]
+        name = 'About'
+        pageRef = '/pages/about'
+        weight = 20
