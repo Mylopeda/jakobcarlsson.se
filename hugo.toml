@@ -1,13 +1,57 @@
-baseURL = 'https://jakobcarlsson.se'
-languageCode = 'en-us'
-title = 'Jakob Carlsson'
-theme = 'PaperMod'
-[menus]
-    [[menus.main]]
-        name = 'Home'
-        pageRef = '/'
-        weight = 10
-    [[menus.main]]
-        name = 'About'
-        pageRef = '/pages/about'
-        weight = 20
+baseURL = "https://jakobcarlsson.se"
+languageCode = "en"
+title = "Jakob Carlsson"
+theme = "hugo-coder"
+
+[pagination]
+pagerSize = 6
+
+[markup]
+[markup.highlight]
+noClasses = false
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Jakob Carlsson"
+description = "My personal place on the internet"
+info = ["Senior Developer", "Solution Architect", "Public Speaker"]
+dateFormat = "2025-01-24"
+since = 2025
+rtl = false
+colorScheme = "auto"
+hideColorSchemeToggle = false
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 1
+url = "https://www.linkedin.com/in/jakobcarlsson-swe/"
+
+[[params.social]]
+name = "Medium"
+icon = "fa-brands fa-medium fa-2x"
+weight = 2
+url = "https://medium.com/@mylopeda"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 3
+url = "https://github.com/Mylopeda"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Speaking"
+weight = 2
+url = "speaking/"
+
+[[languages.en.menu.main]]
+name = "Contact"
+weight = 3
+url = "contact/"
