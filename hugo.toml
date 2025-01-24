@@ -22,6 +22,7 @@ since = 2025
 rtl = false
 colorScheme = "auto"
 hideColorSchemeToggle = false
+manifest = ""
 
 [[params.social]]
 name = "LinkedIn"
