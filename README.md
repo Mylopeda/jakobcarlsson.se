@@ -1,2 +1,2 @@
 # Repo for jakobcarlsson.se
-Only static HTML at the moment.
+Site built using Hugo and markdown files.
