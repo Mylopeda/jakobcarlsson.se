@@ -6,6 +6,9 @@ theme = "hugo-coder"
 [pagination]
 pagerSize = 6
 
+[permalinks]
+blog = "/blog/:slug/"
+
 [markup]
 [markup.highlight]
 noClasses = false
@@ -17,7 +20,7 @@ unsafe = true
 author = "Jakob Carlsson"
 description = "My personal place on the internet"
 info = ["Senior Developer", "Solution Architect", "Public Speaker"]
-dateFormat = "2025-01-24"
+dateFormat = "2006-01-02"
 since = 2025
 rtl = false
 colorScheme = "auto"
@@ -48,11 +51,16 @@ weight = 1
 url = "about/"
 
 [[languages.en.menu.main]]
-name = "Speaking"
+name = "Blog"
 weight = 2
+url = "blog/"
+
+[[languages.en.menu.main]]
+name = "Speaking"
+weight = 3
 url = "speaking/"
 
 [[languages.en.menu.main]]
 name = "Contact"
-weight = 3
+weight = 4
 url = "contact/"
