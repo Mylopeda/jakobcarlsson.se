@@ -1,0 +1,6 @@
++++
+title = "Blog"
+description = "Long-form essays on software architecture, UX,  sociotechnical systems and other things"
++++
+
+This is my public space for deeper analysis of different things. The future will show us what ends up here.

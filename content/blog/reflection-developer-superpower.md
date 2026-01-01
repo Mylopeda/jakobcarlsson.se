@@ -2,6 +2,7 @@
 title = "Reflection as a Developer's Superpower"
 authors = ["Jakob Carlsson"]
 date = "2025-12-08"
+draft = true
 type = "posts"
 +++
 
