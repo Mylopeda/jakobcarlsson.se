@@ -1,9 +1,12 @@
 +++
-title = "Relationships in Percentage"
-authors = ["Jakob Carlsson"]
-date = "2026-01-01"
 draft = false
-type = "posts"
+date = "2026-01-01"
+title = "Relationships in Percentage"
+description = "A relationship is always 100%, but that does not mean that you need to be the one giving all the 100%"
+slug = ""
+authors = ["Jakob Carlsson"]
+tags = []
+type = "thought"
 +++
 
 Being in a romantic relationship with somebody is always 100%, but this is not you investing 100% in the relationship but rather the relationship being 100%.
