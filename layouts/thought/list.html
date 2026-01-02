@@ -11,6 +11,7 @@
       </h1>
     </header>
     {{ .Content }}
+
     <ul>
       {{- range .Paginator.Pages -}}
         {{- .Render "li" -}}
