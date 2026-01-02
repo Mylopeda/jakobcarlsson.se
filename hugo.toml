@@ -28,6 +28,7 @@ unsafe = true
 name = "Jakob Carlsson"
 given_name = "Jakob"
 family_name = "Carlsson"
+email = "jakob@jakobcarlsson.se"
 
 [params]
 author = "Jakob Carlsson"
