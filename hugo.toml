@@ -34,7 +34,7 @@ email = "jakob@jakobcarlsson.se"
 author = "Jakob Carlsson"
 firstName = "Jakob"
 lastName = "Carlsson"
-description = "My personal place on the internet"
+description = "Coding Architect and Staff Software Engineer with 15+ years of experience. Currently exploring sociotechnical systems and how to bridge the gap between resilient code and human organizations."
 info = ["Senior Developer", "Solution Architect", "Public Speaker"]
 dateFormat = "2006-01-02"
 since = 2025
@@ -42,6 +42,7 @@ rtl = false
 colorScheme = "auto"
 hideColorSchemeToggle = false
 manifest = ""
+images = ["images/headshot.jpg"]
 
 [[params.social]]
 name = "LinkedIn"

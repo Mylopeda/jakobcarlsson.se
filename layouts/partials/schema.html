@@ -1,0 +1,28 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ if .IsPage }}BlogPosting{{ else }}WebSite{{ end }}",
+  "headline": "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}",
+  "name": "{{ .Site.Title }}",
+  "description": "{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+  "keywords": "{{ if .Params.tags }}{{ delimit .Params.tags ", " }}{{ else }}Software Architecture, Sociotechnical Systems, Engineering Leadership, Software Philosophy{{ end }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author }}",
+    "url": "{{ .Site.BaseURL }}",
+    "sameAs": [
+      {{- $socials := .Site.Params.social -}}
+      {{- $total := len $socials -}}
+      {{- range $index, $element := $socials -}}
+        "{{ $element.url | safeURL }}"{{ if lt (add $index 1) $total }},{{ end }}
+      {{- end -}}
+    ]
+  },
+  "url": "{{ .Permalink }}",
+  "image": "{{ if .Params.images }}{{ index .Params.images 0 | absURL }}{{ else }}{{ index .Site.Params.images 0 | absURL }}{{ end }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
