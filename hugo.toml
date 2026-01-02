@@ -3,6 +3,14 @@ languageCode = "en"
 title = "Jakob Carlsson"
 theme = "hugo-coder"
 
+[[cascade]]
+    [cascade.fields]
+    type = "thought"
+    [cascade.target]
+    path = "/thoughts/**"
+    kind = "page"
+
+
 [pagination]
 pagerSize = 6
 
