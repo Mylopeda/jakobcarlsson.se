@@ -24,8 +24,15 @@ noClasses = false
 [markup.goldmark.renderer]
 unsafe = true
 
+[author]
+name = "Jakob Carlsson"
+given_name = "Jakob"
+family_name = "Carlsson"
+
 [params]
 author = "Jakob Carlsson"
+firstName = "Jakob"
+lastName = "Carlsson"
 description = "My personal place on the internet"
 info = ["Senior Developer", "Solution Architect", "Public Speaker"]
 dateFormat = "2006-01-02"
