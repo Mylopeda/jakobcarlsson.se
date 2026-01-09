@@ -1,7 +1,7 @@
 +++
 draft = false
 date = "2026-01-09"
-title = "They'll learn much more than I'll ever know"
+title = "They'll Learn Much More Than I'll Ever Know"
 description = "The world will continue evolving if we can say they'll learn much more than I'll ever know about the children of today"
 slug = ""
 authors = ["Jakob Carlsson"]
