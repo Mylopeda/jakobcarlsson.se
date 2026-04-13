@@ -9,6 +9,8 @@ I have some experience doing presentations at different events about things rela
 ----
 
 ## Speaking History
+- [2600 Malmö](https://malmo.2600.se/) - Hacker (the word)
+- [2600 Malmö](https://malmo.2600.se/) - [The Signal Protocol](https://malmo.2600.se/pages/April2025)
 - Data Alliance - [From Messy Forests to Manageable Data Landscapes: Data Platforms to the Rescue](https://foocafe.org/event/messy-forests-manageable-data-landscapes-data-platforms-rescue)
 - Qday 2024 - CrowdStrike the small ooopsie...
 - [2600 Malmö](https://malmo.2600.se/) - [CrowdStrike](https://malmo.2600.se/pages/September2024)
